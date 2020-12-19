@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NOIS\\Documents\\Projects\\CurriculumVitae\\CurriculumViate.Core\\CurriculumViate.Core.csproj": {}
+    "/home/huynhtruongdyu/Projects/CurriculumVitae/CurriculumViate.Core/CurriculumViate.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NOIS\\Documents\\Projects\\CurriculumVitae\\CurriculumViate.Core\\CurriculumViate.Core.csproj": {
+    "/home/huynhtruongdyu/Projects/CurriculumVitae/CurriculumViate.Core/CurriculumViate.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOIS\\Documents\\Projects\\CurriculumVitae\\CurriculumViate.Core\\CurriculumViate.Core.csproj",
+        "projectUniqueName": "/home/huynhtruongdyu/Projects/CurriculumVitae/CurriculumViate.Core/CurriculumViate.Core.csproj",
         "projectName": "CurriculumViate.Core",
-        "projectPath": "C:\\Users\\NOIS\\Documents\\Projects\\CurriculumVitae\\CurriculumViate.Core\\CurriculumViate.Core.csproj",
-        "packagesPath": "C:\\Users\\NOIS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOIS\\Documents\\Projects\\CurriculumVitae\\CurriculumViate.Core\\obj\\",
+        "projectPath": "/home/huynhtruongdyu/Projects/CurriculumVitae/CurriculumViate.Core/CurriculumViate.Core.csproj",
+        "packagesPath": "/home/huynhtruongdyu/.nuget/packages/",
+        "outputPath": "/home/huynhtruongdyu/Projects/CurriculumVitae/CurriculumViate.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NOIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/huynhtruongdyu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.nois.vn/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
